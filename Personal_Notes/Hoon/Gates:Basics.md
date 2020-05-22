@@ -50,4 +50,4 @@ _so it copied then replaced meaning it becomes `(234)` then whatever the `$` is,
 ->Neither the arm or the context is modified before the arm is evaluated. That means that the only part of the gate that changes before the arm evaluation is the sample. Hence, we may understand each gate as *defining a function whose argument is the sample.* If you call a gate with the same sample, you'll get the same value returned to you every time.
 
 ## Modifying the Context of a Gate
--> It is possible to modify the context of a gate when you make a function call; or, to be more precise, it's possible to call a mutant copy of the gate in which the context is modified. _Basically talks about how you can bind things to each other like `b` to the value `10` by talling hoon `=b 10`
+-> It is possible to modify the context of a gate when you make a function call; or, to be more precise, it's possible to call a mutant copy of the gate in which the context is modified. _Basically talks about how you can bind things to each other like `b` to the value `10` by telling hoon `=b 10`
