@@ -12,6 +12,17 @@
   </a>
 </p>
 
+### Library
+
+<details>
+<summary> Content </summary>
+<ul>
+<li> <a href="https://github.com/mccrudd3n/Urbit/tree/master/Personal_Notes">Personal Read Me</a> </li>
+<li> <a href="https://github.com/mccrudd3n/Urbit/tree/master/Personal_Notes/Hoon">Hoon Notes</a> </li>
+</ul>
+</details>
+
+
 ## Authors
 * McCrudd3n
 
