@@ -9,6 +9,11 @@
 ```
 
 ## Auto Commit Work
+* Enable
 ```
-
+|autocommit %home
+```
+* Disable
+```
+|cancel-autocommit to disable
 ```
