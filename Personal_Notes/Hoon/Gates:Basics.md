@@ -2,8 +2,10 @@
 # Gate
 ![Reference_Link](https://urbit.org/docs/tutorials/hoon/gates/)
 
-#Construct 1 -> Gate:[Battery Payload]
-#Construct 2 -> Gate:[$[Sample Context]]
+#Construct 1
+`Gate:[Battery Payload]``
+#Construct 2
+`Gate:[$[Sample Context]]``
 
 ##Overview
 A gate is a core with two distinctive properties:
@@ -21,15 +23,18 @@ the payload (Just as it sounds - the `payload of an aircraft`) is the stuff that
 ##Anatomy of a Gate
 A gate is a one-armed core with a sample: `[$ [Sample Context]]`
 
-#The `$` arm _aka the operation_
+#The `$` arm
+_aka the operation_
 The arm of the Gate encodes the instructions for the hoon function in question
 
-#The Sample _aka the argument/holder_
+#The Sample
+_aka the argument/holder_
 The same of a gate is the address reserved for storing the argument to the hoon function. The sample is always at the head of the gate's tale (Tree position `+6`).
 
 This is a placeholder value for the function argument. If you evaluate `$` arm without passing an argument, the placeholder value is used for the computation. This is sometimes called as a `blunt` value, being determined by the input type.
 
-#The Context _the shit_
+#The Context
+_the shit_
 The context of a gate contains other data that maybe necessary for the `$` arm to evaluate correctly.
 The context is always located at the tail, of the tail, of the gate (position +7 on the binary tree). There is no requirement that the context have any particular arrangement, though it often dose.
 
